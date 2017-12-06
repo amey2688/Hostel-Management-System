@@ -1,0 +1,152 @@
+<html>
+
+<style>
+.cv{
+	float:left
+	}
+.ck{
+	float:right;
+}
+.cb{
+	font-size:30px;
+padding-top:20px;
+}
+.cd{
+	font-size:30px;
+}
+a:hover{
+	background-color:yellow;
+	}
+
+#search {
+    width: 10em;color:white;  height: 4em; background-color:rgb(153, 153, 102); font:italic bold 20px Georgia, serif; border-style:solid;border-color:black;
+}
+li{
+display:inline ;
+
+}
+
+</style>
+<body  background="Eiffel-Tower-19.jpg">
+<form action="insert.php" method="post">
+<fieldset style="margin-top:30px;margin-botton:100px;margin-right:200px;margin-left:200px;border-style:solid;border-width:10px;border-color:rgb(153, 153, 102);background-color:gray" >
+<legend style="font-size: 30px; font-family: Georgia ; text-align:center;text-decoration:underline;background-color:rgb(153, 153, 102);color:white"><b>
+BOOK NOW!!!!
+</b></legend>
+<div class="cv">
+<table>
+<tr>
+<td class="cd"> First Name: </td>
+<td style="padding:20px"> <input type="text" name ="First" placeholder="YOUR FIRST NAME" required="required" pattern="[A-Za-z]+" title="Firstname should not contain numbers and any special symbol." style="height:30px;width:200px"></td>
+</tr>
+<tr>
+<td class="cd"> Second Name: </td>
+<td style="padding:20px"> <input type="text" name ="Second" placeholder="YOUR SECOND NAME" required="required" pattern="[A-Za-z]+" title="Secondname should not contain numbers and any special symbol." style="height:30px;width:200px"> </td>
+</tr>
+<tr>
+<td class="cd"> Citizen Of: </td>
+<td style="padding:20px"> <select name="country" placeholder="SELECT COUNTRY" required="required" style="height:30px;width:220px">
+<option value="">NONE</option>
+<option>INDIA</option>
+<option>AMERICA</option>
+<option>JAPAN</option>
+<option>CHINA</option>
+<option>SRI LANKA</option>
+<option>SINGAPORE</option>
+<option>MALAYSIA</option>
+</select>
+
+ </td>
+</tr>
+<tr>
+<td class="cd"> E-mail: </td>
+<td style="padding:20px"> <input type="text" name ="mail" placeholder="YOUR E-MAIL HERE" pattern="[^ @]*@[^ @]*" title="For example- adi_gpt1997@yahoo.com" required="required" style="height:30px;width:200px"> </td>
+</tr>
+<tr>
+<td class="cd"> Address: </td>
+<td style="padding:20px"> <input type="text" name ="Address" placeholder="YOUR ADDRESS HERE" min="10" max="50" required="required" style="height:30px;width:200px"> </td>
+</tr>
+</table>
+</div>
+<div class="ck">
+<table>
+<tr>
+<td class="cb"> Location: </td>
+<td style="padding-top:20px;padding-left:20px"><select name="location" placeholder="SELECT COUNTRY" required="required" style="height:30px;width:200px">
+<option value="">NONE</option>
+<option>HYDERABAD</option>
+<option>BANGALORE</option>
+<option>MUMBAI</option>
+<option>CHENNAI</option>
+<option>PUNE</option>
+<option>VELLORE</option>
+<option>DELHI</option>
+</select>
+
+ </td>
+</tr> 
+<tr>
+<td class="cb"> Room Type: </td>
+<td style="padding-top:20px;padding-left:20px"><select name="room" placeholder="SELECT HOSTEL" required="required" style="height:30px;width:200px">
+<option value="">NONE</option><BR>
+<option>DELUXE</option><br>
+<option>SUPER DELUXE</option><br>
+<option>SUITE</option><br>
+<option>LUXURY SUITE</option><br>
+</select>
+
+ </td>
+</tr>
+<tr>
+<td class="cb"> Rooms: </td>
+<td style="padding-top:20px;padding-left:20px"><select name="rooms_num" placeholder="SELECT ROOMS" required="required" style="height:30px;width:200px">
+<option value="">NONE</option><BR>
+<option>1</option><br>
+<option>2</option><br>
+<option>3</option><br>
+
+</select>
+ </td>
+</tr>
+<tr>
+<td class="cb"> From: </td>
+<td style="padding-top:20px;padding-left:20px"><input type="date" name ="date" placeholder="SELECT DATE" required="required" style="height:30px;width:200px">
+
+ </td>
+</tr>
+<tr>
+<td class="cb"> TO: </td>
+<td style="padding-top:20px;padding-left:20px"><input type="date" name ="dates" placeholder="SELECT DATE" required="required" style="height:30px;width:200px">
+
+ </td>
+</tr>
+<tr>
+<td class="cb"> Meals: </td>
+<td style="padding-top:20px;padding-left:20px"><select name="meals" placeholder="SELECT" required="required" style="height:30px;width:200px">
+<option value="">NONE</option><BR>
+<option>YES</option><br>
+<option>NO</option><br>
+
+
+</select>
+ </td>
+</tr>
+</table>
+</div>
+<div >
+<ul style="list-style-type:none ">
+<li >
+<input style="margin-top:50px;margin-right: 40px; " type="submit" id="search" value="RESET" class="search">
+</li>
+<li  >
+<input type="submit" id="search" value="BOOK NOW" class="search" name="submit">
+</li>
+</ul>
+</div>
+<p style="text-align:center;font-size:30px"> *** TARIFF ARE SUBJECT TO CHANGE*** </p>
+<p style="text-align:center;font-size:30px"> Click here to check <a href="tariff.html">Tariff </a>for rooms. </p>
+</fieldset>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+#searchbar {
+	padding-top:20px;
+}
+#itemslide {
+	width:100% !important;
+}
+#contentbox {
+	padding:2% 0;
+	
+}
+#contentbox div {
+	
+	padding:5%;
+	
+	}
+#contentbox div p {
+	padding:7% 0;
+	text-align:center;}
+	
+#foot {
+	
+	position:relative;
+	bottom:0;
+	margin:auto;
+	background:#0CF;
+	width:100%;}
+#postimg {
+	
+	padding:10px;
+	margin:10px;}
+#contactform {
+	
+	padding:5%;
+	background-color:#f1f1f1;
+	opacity:0.6;
+	background-image:url(../images/2.jpg);
+	margin-bottom:2%;
+	background-size:cover;
+	background-repeat:no-repeat;}
+	
+#galleryimgs img:hover {
+		width:30%;
+		
+		}
+#sitemenu {
+	z-index:2000;
+	}
